@@ -35,7 +35,7 @@ let categories = [
 function renderCategories() {
   // Add code here
   for (let i = 0; i < categories.length; i++) {
-    let category = categories[i];
+    let category = categories[i].toUpperCase();
     console.log("Element at index ", i, "is", category);
 
     let categoryHtml =
